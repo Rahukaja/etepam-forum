@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>  
+     <title>Handlebars Images Demo</title>
+  </head>
+  <body>
+  <h1>Display Dynamic Images Using Handlebars In NodeJS</h1> <br>
+  <div class="row">
+  {{#each imageList}}
+  <div class="col-md-4">
+      <div class="text-success" style="font-size: large;
+            font-weight: 700;">{{this.name}}</div>
+         <img src="{{this.src}}">
+      </div>
+      {{/each}}
+  </div>
+  </body>
+<html>

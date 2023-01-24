@@ -1,0 +1,41 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+ 
+
+<div class= "container m-4"></div>
+    
+
+<form action="/categoria/nova" method="POST" class="container">
+    <h1>COLOQUE AS INFORMAÇÕES DO SEU POST</h1>
+
+
+
+    <div class="card-header">
+        <input type="text" nome="titulo" placeholder="Título">
+    </div>
+
+    <div class="card-main">
+        <p>Selecione a capa</p>
+         <input type="file" nome = "img" placeholder="Imagem">
+        
+    </div>
+
+    <div class="card-footer">
+        <p>Conteúdo</p>
+        <textarea type="text" nome="conteudo" placeholder="Mensagem"></textarea>
+    </div>
+
+      <div class="card-main">
+        <p>preencha o slug</p>
+         <input type="text" nome = "slug" placeholder="Slug">
+        
+    </div>
+    <br>
+    <button type="subimit" class="btn btn-success">Publicar</button>
+
+</form>
+
+
+
+=
+
